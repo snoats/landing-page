@@ -1,3 +1,22 @@
 * {
-    border: 2px solid black;
+    border: 2px solid red;
+    background: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    background: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    font-weight: bold;
+    color: white;
+}
+
+.header .links {
+    color: #F9FAF8;
+    font-size: 24px;
 }
