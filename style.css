@@ -1,7 +1,11 @@
 * {
     border: 2px solid red;
-    background: black;
-    color: white;
+    /* background: black;
+    color: white; */
+}
+
+html {
+    background: green;
 }
 
 .header {
@@ -19,4 +23,76 @@
 .header .links {
     color: #F9FAF8;
     font-size: 24px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.awesome {
+    display: flex;
+    background: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.awesome .container2 {
+    width: 400px;
+    height: 200px;
+}
+
+.random {
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.random-imgs {
+    display: flex;
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: grey;
+    color: black;
+}
+
+.action {
+    background: white;
+    padding: 30px;
+}
+
+.call {
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    background: #1F2937;
 }
