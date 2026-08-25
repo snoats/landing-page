@@ -1,98 +1,96 @@
 * {
     border: 2px solid red;
-    /* background: black;
-    color: white; */
+    font-family: "Roboto";
 }
 
 html {
-    background: green;
+    background: yellow;
 }
 
-.header {
-    display: flex;
-    background: #1F2937;
-    justify-content: space-between;
-    align-items: center;
+body {
+    background: grey;
+    margin: 0;
+    min-height: 100vh;
 }
 
-.header h2 {
-    font-weight: bold;
-    color: white;
-}
-
-.header .links {
-    color: #F9FAF8;
-    font-size: 24px;
-}
-
-.body {
+.column-flex {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
-
-
-.awesome {
-    display: flex;
-    background: #1F2937;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.first,
+.second,
+.third,
+.fourth {
     flex: 1;
 }
 
-.awesome .container2 {
-    width: 400px;
-    height: 200px;
+.first > .top {
+    display: flex;
+    justify-content: space-between;
 }
 
-.random {
-    background: white;
-    color: black;
+.top > .links {
     display: flex;
-    align-items: center;
+    gap: 8px;
+}
+
+.first > .bottom {
+    display: flex;
+}
+
+.awesome, .placeholder {
+    flex: 1;
+}
+
+.info {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.images {
+    display: flex;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image {
+    height: 125px;
+    width: 125px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.third {
+    padding: 30px;
+    display: flex;
     flex-direction: column;
 }
 
-.random-imgs {
+.signature {
     display: flex;
-}
-
-.placeholder {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .item {
-    width: 50px;
-    height: 50px;
+    flex: 1;
 }
 
-.quote {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: grey;
-    color: black;
-}
-
-.action {
-    background: white;
+.fourth {
     padding: 30px;
 }
 
-.call {
-    background: blue;
-    color: white;
+.action {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
     display: flex;
     justify-content: center;
-    color: #F9FAF8;
-    background: #1F2937;
+    align-items: center;
 }
