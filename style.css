@@ -1,14 +1,14 @@
 * {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: "Roboto";
 }
 
 html {
-    background: yellow;
+    /* background: yellow; */
 }
 
 body {
-    background: grey;
+    /* background: grey; */
     margin: 0;
     min-height: 100vh;
 }
@@ -29,50 +29,111 @@ body {
 .first > .top {
     display: flex;
     justify-content: space-between;
+    font-size: 24px;
+    color: #F9FAF8;
+    background: #1F2937;
+    padding: 20px 70px 0px 70px;
 }
 
 .top > .links {
     display: flex;
-    gap: 8px;
+    gap: 15px;
+    font-size: 18px;
+    color: lightgray;
 }
 
 .first > .bottom {
     display: flex;
+    background: #1F2937; 
+    color: #F9FAF8;
+    padding: 90px;
+    gap: 40px;
 }
 
+.large {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.small {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    width: 1000px;
+}
+
+.button1 {
+    background: #3882F6;
+    border: #3882F6;
+    font-weight: bold;
+    border-radius: 4px; 
+    padding: 5px 20px;
+    color: white;
+}
 .awesome, .placeholder {
     flex: 1;
 }
 
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 80px 120px;
+}
+
 .info {
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
+    font-weight: 900;
+    font-size: 36px;
 }
 
 .images {
     display: flex;
+    gap: 15;
 }
 
 .image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
     text-align: center;
+    padding: 0;
 }
 
 .image {
     height: 125px;
     width: 125px;
-    width: 50%;
-    margin: 0 auto;
+    border: 2px solid #3882F6;
+    border-radius: 4px; 
+}
+
+.subtext {
+    padding: 5px 20px;
 }
 
 .third {
-    padding: 30px;
+    background: lightgrey;
+    font-style: italic;
+    font-size: 20px;
+    padding: 80px 120px;
     display: flex;
     flex-direction: column;
 }
 
+.thor-quote {
+    padding-bottom: 10px;
+}
+
 .signature {
     display: flex;
+    font-weight: bold;
 }
 
 .item {
@@ -80,17 +141,38 @@ body {
 }
 
 .fourth {
-    padding: 30px;
+    padding: 80px 120px;
 }
 
 .action {
+    background: #3882F6;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 100px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.action-button {
+    border-radius: 10px;
+    padding: 5px 20px;
+    background: #3882F6;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+}
+
+.call {
+    font-weight: bolder;
+    font-size: large;
 }
 
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    background: #1F2937; 
+    color: white;
+    padding: 20px;
 }
